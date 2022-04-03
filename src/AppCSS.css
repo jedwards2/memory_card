@@ -1,0 +1,21 @@
+.card--div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: gray;
+  font-size: 36px;
+  border-radius: 25px;
+}
+
+.card:hover {
+  background-color: rgb(75, 75, 75);
+}
